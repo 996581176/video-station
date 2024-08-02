@@ -1,0 +1,14 @@
+{
+  "@name": "群晖VideoStation时间跳转,解除右键屏蔽",
+  "@namespace": "https://bbs.tampermonkey.net.cn/",
+  "@version": "0.1.0",
+  "@description": "群晖VideoStation时间跳转,解除右键屏蔽",
+  "@author": "NorthEgg",
+  "@match": [
+    "https://*.quickconnect.tld/video/*",
+    "*://*/?launchApp=SYNO.SDS.VideoStation.AppInstance*"
+  ],
+  "@require": "https://unpkg.com/vue@3.3.8/dist/vue.runtime.global.js",
+  "@grant": "GM_addStyle",
+  "@license": "MIT"
+}
