@@ -8,7 +8,6 @@
     "https://*.quickconnect.tld/video/*",
     "*://*/?launchApp=SYNO.SDS.VideoStation.AppInstance*"
   ],
-  "@require": "https://unpkg.com/vue@3.3.8/dist/vue.runtime.global.js",
   "@grant": "GM_addStyle",
   "@license": "MIT"
 }
